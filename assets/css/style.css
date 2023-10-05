@@ -45,4 +45,95 @@ header{
     width: 100%;
     margin: 7px;
     height: 50px;
+    text-align: center;
+}
+.feature{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: #022d7c;
+    padding: 60px 100px;
+    justify-content: space-between;
+
+}
+.feature div{
+    width: 30%;
+    height: 400px;
+}
+.feature div h2{
+    font-size: 40px;
+    margin-bottom: 7px;
+}
+
+.feature div img{
+    width: 400px;
+    height: 250px;
+}
+.feature div p{
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.about{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    padding: 60px 300px;
+    background: #02207c;
+}
+.about h2{
+    font-size: 33px;
+    margin-bottom: 7px;
+    
+}
+.about p{
+    font-size: 18px;
+    font-weight: normal;
+}
+.about button{
+    color: #fff;
+    margin-top: 10px;
+    padding: 15px 120px;
+    font-weight: bold;
+    background: #02207c;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    margin-top: 20px;
+
+}
+.service ,.table{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+
+}
+.service .upper,.service .lower{
+    display: flex;
+    align-items: center;
+}
+.service .image,
+.service .content{
+    width: 50%;
+
+}
+.service .image img{
+    width: 650px;
+    height: 500px;
+}
+table tr td img{
+    width: 650px;
+    height: 500px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    padding: 25px  100px;
+    background: #022D7c;
+    margin-top: 30px;
 }
