@@ -101,7 +101,7 @@ header{
     background: #02207c;
     border: 2px solid #fff;
     border-radius: 4px;
-    margin-top: 20px;
+    margin-top: 20px ;
 
 }
 .service ,.table{
@@ -136,4 +136,77 @@ footer{
     padding: 25px  100px;
     background: #022D7c;
     margin-top: 30px;
+}
+
+@media screen and (max-width:992px){
+    header{
+        padding: 10px;
+    }
+    header h2{
+        font-size: 20px;
+
+    }
+    .banner{
+        padding: 10px;
+        
+    }
+    .feature{
+        padding: 50px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    .feature div{
+        width: 35%;
+        height: 450px;
+    }
+
+.feature div img,
+.feature div p{
+        margin-left: -50%;
+    }
+    
+    .feature div h2{
+        margin: 0px;
+    }
+    .about{
+        padding: 20px;
+    }
+    .service{
+        padding: 10px;
+    }
+    .service .upper,
+    .service .lower
+    {    flex-direction: column;
+        justify-content: center;
+    }
+    .service .image,
+    .service .content{
+        width: auto;
+        padding-left: 0px; ;
+    }
+}
+
+@media screen and (max-width:768px){
+    header h2{
+        font-size: 14px;
+    }
+    
+    header h2 span{
+        font-size: 12px;
+        text-wrap: nowrap;    }
+    
+    .banner{
+        height: auto;
+        padding: 10px;
+        flex-direction: column;
+
+    }
+    .banner h1{
+        font-size: 30px;
+
+    }
+    .banner h1 span{
+        font-size: 47px;
+    }
 }
