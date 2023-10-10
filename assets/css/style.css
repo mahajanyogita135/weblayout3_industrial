@@ -164,6 +164,7 @@ footer{
 .feature div img,
 .feature div p{
         margin-left: -50%;
+        
     }
     
     .feature div h2{
@@ -194,7 +195,8 @@ footer{
     
     header h2 span{
         font-size: 12px;
-        text-wrap: nowrap;    }
+        text-wrap: nowrap;   
+     }
     
     .banner{
         height: auto;
@@ -210,3 +212,13 @@ footer{
         font-size: 47px;
     }
 }
+    @media screen and (max-width:575px) {
+        .feature{
+            line-height: normal;
+        }
+        .feature div h2{
+            font-size:25px ;
+        }
+        
+    }   
+    
