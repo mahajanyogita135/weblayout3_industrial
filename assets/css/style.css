@@ -219,6 +219,19 @@ footer{
         .feature div h2{
             font-size:25px ;
         }
+        .feature div img{
+            width: 300px;
+            height: 200px;
+            margin-right: -50%;
+
+        }
+        .service .image img{
+            width: 500px;
+            height: 350px;
+        }
+        .service .lower h3, p{
+            margin-left: 20px;
+        }
         
     }   
     
